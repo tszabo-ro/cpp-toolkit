@@ -51,5 +51,10 @@ Point2<T> operator+(Point2<T> pt, Vector2<Q> vec) { return Point2<T>(pt.x + vec.
 template<class T, class Q>
 Vector2<T> operator+(Vector2<T> pt, Vector2<Q> vec) { return Vector2<T>(pt.x + vec.x, pt.y + vec.y); }
 
-
+struct Twist
+{
+  double x;
+  double y;
+  double theta;
+};
 #endif
