@@ -2,10 +2,13 @@
 #define TheadPool_h
 
 #include <thread>
+#include <mutex>
 #include <vector>
 #include <queue>
 #include <functional>
 #include <optional>
+#include <condition_variable>
+#include <atomic>
 
 
 class ThreadPool
